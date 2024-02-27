@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "selenidejs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^122.0.3",
+    "jest": "^29.7.0",
+    "selenidejs": "^1.4.5"
+  },
+  "dependencies": {
+    "chrome": "^0.1.0"
+  }
+}
